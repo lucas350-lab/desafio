@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    min-height: 120px;
+    box-shadow: 2px 2px 2px 2px;
+}
+h1{
+    font-size: 5em;
+    font-variant: small-caps;
+}
+#p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+main{
+    background-color: aliceblue;
+    text-align: left;
+}
+#p2{
+    max-width: 45%, 250px;
+    min-width: 300;
+    font-size: max(1.8em, 3vw);
+    text-align: left;
+    line-height: 1.8em;
+    
+    padding: 10vh 0px 10vh 10px;
+
+    font-family: serif;
+}
+.div1{
+    background-image: url(poesia-acustica-1-melina-tavares.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+#div2{
+    background-image: url(pineaple.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    height: 20px;
+    padding: 5px;
+
+    font-family: sans-serif;
+}
+.borda p{
+    background-color: rgba(128, 128, 128, 0.514);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    width: 30vw;
+    box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.301)
+    
+}
+#borda p{
+    background-color: rgba(128, 128, 128, 0.459);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    width: 30vw;
+    box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.301) ;
+    
+}
