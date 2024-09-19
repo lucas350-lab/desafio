@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 
 *{
     padding: 0px;
@@ -25,6 +25,8 @@ h1{
 main{
     background-color: aliceblue;
     text-align: left;
+    font-family: "safadi-one";
+    font-size: 30px;
 }
 #p2{
     max-width: 45%, 250px;
@@ -77,4 +79,10 @@ footer{
     width: 30vw;
     box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.301) ;
     
+}
+audio{
+position: absolute;
+display: flex;
+justify-content: center;
+
 }
